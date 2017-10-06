@@ -228,7 +228,6 @@ footer {
 
 body {
   margin: 0;
-  min-width: 960px;
   background-image: url("../images/hypnotize.png");
   background-position: left top;
   background-repeat: repeat;
@@ -292,11 +291,7 @@ body {
   }
 
   form {
-    width: 620px;
-  }
-
-  body {
-    min-width: 768px
+    width: 630px;
   }
 
 }
@@ -310,6 +305,8 @@ body {
   h1.name {
     text-align: center;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   #top {
@@ -317,12 +314,13 @@ body {
   }
 
   nav {
+    text-align: center;
     bottom: 0;
     left: 0;
   }
 
   a.nav {
-    padding: 10px 60px;
+    padding: 10px 55px;
   }
 
   header {
@@ -346,11 +344,6 @@ body {
   }
 
   form {
-    width: 360px;
+    width: 570px;
   }
-
-  body {
-    min-width: 640px;
-  }
-
 }
