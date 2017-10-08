@@ -162,24 +162,21 @@ a.nav {
   padding: 10px 10px;
 }
 
-#aboutNav {
-
-}
-
-#portNav {
-
-}
-
-#contactNav {
-
-}
-
 hr {
   margin-bottom: 20px;
 }
 
-td {
-  width: 20%;
+table, th, td {
+  text-align: center;
+}
+
+th {
+  width: 33.3%;
+}
+
+th.portNav {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
 
 p.text {
@@ -294,7 +291,7 @@ body {
   }
 
   form {
-    width: 630px;
+    width: 98%;
   }
 
 }
@@ -349,6 +346,6 @@ body {
   }
 
   form {
-    width: 95%;
+    width: 98%;
   }
 }
