@@ -44,7 +44,7 @@ nav {
   height: 100%;
 }
 
-#content {
+.content {
   margin: auto;
   padding: 20px 0px;
   position: relative;
@@ -79,7 +79,7 @@ img.icon {
 }
 
 img.portfolio {
-  width: inherit;
+  width: 100%;
   border: 0;
 }
 
@@ -98,7 +98,7 @@ element.right {
 }
 
 h2.portfolio {
-  width: inherit;
+  width: 100%;
   position: relative;
   top: -80px;
   left: 0;
@@ -235,6 +235,10 @@ body {
   background-color: #aaaaaa;
 }
 
+html {
+  min-width: 320px
+}
+
 
 
 @media screen and (max-width: 980px) {
@@ -279,14 +283,26 @@ body {
     max-width: 700px;
   }
 
+  img.profile {
+    width: 300px;
+    float: left;
+  }
+
   article {
     float: none;
     max-width: 700px;
   }
 
   element.portfolio {
-    float: none;
-    width: 100%;
+    width: 45%;
+  }
+
+  element.left {
+    float: left;
+  }
+
+  element.right {
+    float: right;
   }
 
   form {
@@ -318,10 +334,12 @@ body {
     width: 100%;
   }
 
-  a.nav {
+  header {
+    width: 100%;
   }
 
-  header {
+  img.profile {
+    float: none;
     width: 100%;
   }
 
