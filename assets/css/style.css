@@ -110,21 +110,20 @@ h2.portfolio {
 }
 
 form {
-  width: 600px;
+  width: 610px;
   font-size: large;
   font-family: "Lato";
-  margin: 0 20px 0 10px;
 }
 
 input {
-  width: inherit;
+  width: calc(100% - 10px - 4px);
   padding: 5px;
   margin: 10px 0 20px 0;
   color: #888888;
 }
 
 textarea {
-  width: inherit;
+  width: calc(100% - 10px - 4px);
   margin: 10px 0 10px 0;
   padding: 5px;
 }
@@ -291,7 +290,7 @@ body {
   }
 
   form {
-    width: 98%;
+    width: 100%;
   }
 
 }
@@ -346,6 +345,5 @@ body {
   }
 
   form {
-    width: 98%;
   }
 }
